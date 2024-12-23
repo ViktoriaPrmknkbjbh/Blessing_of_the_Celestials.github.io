@@ -1,0 +1,17 @@
+.img2 {
+    width: 300px;
+    display: flex;
+    margin: 20px;
+    padding: 15px;
+    height: 400px;
+  }
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.v1{
+    color: rgb(236, 236, 236);
+      font-size: 22px;
+      font-family: Osterbar;
+      margin: 40px;
+    }

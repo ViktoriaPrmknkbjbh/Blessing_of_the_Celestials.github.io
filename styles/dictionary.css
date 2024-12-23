@@ -1,0 +1,57 @@
+
+.term-list {
+    list-style-type: none;
+    padding: 0;
+}
+.term-item {
+    text-align: center;
+    color: rgb(236, 236, 236);
+  font-family: Catacombs;
+  font-size: 30px;
+  border-radius: 10%;
+  margin: 25px;
+  height: 35px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(0, 0, 0, 1) 7%,
+    rgba(0, 0, 0, 1) 100%)
+}
+#description {
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    color: rgb(236, 236, 236);
+  font-size: 26px;
+  font-family: Osterbar;
+
+}
+#description img {
+    height: auto;
+    margin-top: 10px;
+    margin-left: 15px;
+    height: 400px;
+}
+    
+.clovagrid{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.in{
+width: 200px;
+height: 30px;
+margin-left: 20px;
+}
+
+.clova1{
+    padding: 20px;
+}
+ img{
+    width: 300px;
+}
+
+    
+

@@ -1,0 +1,57 @@
+.colum{
+    display: flex;
+    flex-direction: column;
+    font-family: Osterbar;
+  color: rgb(236, 236, 236);
+  font-size: 22px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+}
+.vodd{
+    width: 300px;
+    height: 20px;
+    color: rgb(0, 0, 0);
+    
+}
+.v{
+color: rgb(236, 236, 236);
+  font-size: 22px;
+  font-family: Osterbar;
+  margin-left: 30px;
+    
+}
+.styleknop{
+    color: rgb(236, 236, 236);
+    font-family: Catacombs;
+    font-size: 30px;
+    border-radius: 10%;
+    margin: 15px;
+    margin-left: 30px;
+    height: 35px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(0, 0, 0, 1) 7%,
+      rgba(0, 0, 0, 1) 100%
+    );
+}
+.plus{
+  font-size: 20px;
+  font-family: Osterbar;
+  margin-left: 30px;
+}
+.error{
+    font-size: 20px;
+    font-family: Osterbar;
+    margin-left: 30px; 
+    
+}
+.no{
+    display: none;
+}
+
+
+
