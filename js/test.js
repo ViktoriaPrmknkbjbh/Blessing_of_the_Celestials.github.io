@@ -9,6 +9,7 @@ const dvop5=document.getElementById("divvop5");
 const dvop6=document.getElementById("divvop6");
 const dvop7=document.getElementById("divvop7");
 const dvop8=document.getElementById("divvop8");
+const submitButton = form2.querySelector('[type="submit"]');
 
 form2.addEventListener("submit", (event) =>{
     event.preventDefault();
@@ -88,7 +89,7 @@ if(Number(h.v7.value)==1){
 document.getElementById("i").classList.remove("no");
 out.innerText= "Вы набрали: "+result2+" из 8"
 document.getElementById("out4").innerText="В последнем тесте вы набрали: "+ result2;
-
+submitButton.disabled = true;
 }
 )
 function del(){
@@ -104,6 +105,7 @@ function del(){
     out.innerText=""
     document.getElementById("out4").innerText=""
     document.getElementById("i").classList.add("no");
+    submitButton.disabled = false;
 }
 const del1=document.getElementById("i");
 del1.addEventListener("click", del)
@@ -120,6 +122,7 @@ function del2(){
     out.innerText=""
     document.getElementById("out4").innerText="Вы не прошли ни одного теста"
     document.getElementById("i").classList.add("no");
+    submitButton.disabled = false;
 }
 
 const poka1=document.getElementById('out2');
